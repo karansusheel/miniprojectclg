@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>KS HOLIDAYS INN</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/logoedit.JPG" width="120px" height="120px"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-circle-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html.html">ABOUT</a></li>
+                        <li><a href="packages.html.html">PACKAGES</a></li>
+                        <li><a href="discount.html">DISCOUNTS&OFFERS</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <h1>CONTACT US</h1>
+        </section>
+<!------------contact us------------->
+<section class="location">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d236447.8852317319!2d80.04419819043571!3d13.047473316234447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e1!3m2!1sen!2sin!4v1734754205061!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+<section class="contact-us">
+
+    <div class="row">
+        <div class="contact-col:">
+            <div>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <span>
+                    <h5>ABC ROAD, ABC COMPLEX</h5>
+                    <p>Chennai, Tamil Nadu,IN</p>
+                </span>
+            </div>
+           
+            <div>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                    <h5>9958674565</h5>
+                    <p>Monday to Saturday, 10AM to 6PM</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                    <h5>ksholidays@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+            <div class="contact-col">
+                <form action="form-handler.php" method="post">
+                    <input type="text" name="name" placeholder="Enter Your Name" required>
+                    <input type="E-mail"name="email" placeholder="Enter Your E-mail address" required>
+                    <input type="text"name="subject" placeholder="Enter Your Destination" required>
+                    <textarea rows="8" name="message" placeholder="Message"></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>jfkgjfk dnjnfnfvjndkjeowuur efjfjjowjihn ekfjqjdjjnjhef jnwjdwnfjbnhqswq jbefjbqbniwjdwcjbqjjiw
+        jkejknfknskfjkmslkjriyeqrpoojkjvkmcxvnjdfijf hfkewokfoewf hefuewhfoejof ewhhif ew iui uiujfjf
+    </p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made by<i class="fa fa-heart-o"></i>Karan</p>
+</section>
+
+
+
+
+
+
+<!--------javascript for toggle menu------>
+<script>
+    var navLinks=document.getElementById("navLinks")
+
+    function showmenu(){
+        navLinks.style.right="0";
+    }
+    function hidemenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+</body>
+</html>
